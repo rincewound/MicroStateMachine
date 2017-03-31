@@ -57,4 +57,7 @@ class PrintingState: IState<char>
 }
 ```
 
+Note, that in the previous example, we implemented IState for events of type
+char. You can use any type as an event as long as it is comparable.
+
 For a more elaborate example, of what can be done with little code check SSMParseProtocol.cs
