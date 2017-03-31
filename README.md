@@ -11,6 +11,13 @@ Usage:
 
 ```C#
 
+enum Events
+{
+    Event1,
+    Event2,
+    Event3
+}
+
 void main()
 {
     var S1 = new BasicState<Events>("S1");
